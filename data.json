@@ -12,7 +12,7 @@ var obj =
 	},
 	"title": "IT Manager, Architecture",
 	"company": "AVON	",
-	"department": "Responsible by the definition of strategic planning for application modernization, and lead innovation initiatives evaluating emerging technologies.",
+	"department": "Responsible by solution architecture, application modernization, and innovation initiatives evaluating emerging technologies.",
 
 	"columns": {
 		"1": ["phone", "publications", "address", "mail"],
