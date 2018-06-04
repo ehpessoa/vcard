@@ -1,0 +1,110 @@
+var obj =
+{
+	/*
+		Everywhere the emailchar appears on values, it will be substituted by "@". This
+		is to make more difficult the life of e-mail address crawlers.
+	*/
+	"emailchar": "?",
+	
+	"name": {
+		"first": "Everaldo",
+		"last": "Pessoa",
+	},
+	"title": "IT Manager, Architecture",
+	"company": "AVON	",
+	"department": "Responsible by the definition of strategic planning for application modernization, and lead innovation initiatives evaluating new and emerging technologies.",
+
+	"columns": {
+		"1": ["phone", "publications", "address", "mail"],
+		"2": ["social", "",            "",        "other", "qrcode"]
+	},
+	
+	"section": {
+		"phone": [			
+			{
+				"value": "+55 (11) 98962-0797",
+				"label": "mobile"
+			},							
+			{
+				"value": "+55 (11) 98962-0797",
+				"label": "whatsapp"
+			},				
+			{
+				"value": "everaldo.pessoa?avon.com",
+				"label": "sip"
+			},
+			{
+				"value": "everaldo.pessoa?live.com",
+				"label": "skype"
+			}					
+		],
+
+		"mail": [
+			{
+				"value": "everaldo.pessoa?avon.com",
+				"label": "work"
+			},
+			{
+				"value": "everaldo.pessoa?gmail.com",
+				"label": "personal"
+			},
+		],
+		
+		"social": [	
+			{
+				"value": "epessoa",
+				"label": "linkedin"
+			},			
+			{
+				"value": "ehpessoa",
+				"label": "facebook"
+			},
+			{
+				"value": "ehpessoa",
+				"label": "instagram"
+			},
+			{
+				"value": "ehpessoa",
+				"label": "twitter"
+			}
+		],
+		
+		"publications": [
+			{
+				"value": "www.avon.com.br",
+				"label": "work",
+				"protocol": "http"
+			}, 
+			{
+				"value": "me.ehpessoa.com",
+				"label": "personal",
+				"protocol": "http"
+			}			
+		],
+		
+		"address": [
+			{
+				"label": "work",
+				"street": "Av. Interlagos, 4300",
+				"city": "São Paulo",
+				"state": "São Paulo",
+				"country": "Brazil",
+				"zip": "04660-907",
+				"geo": "-23.6843119,-46.6959656"
+			}
+		],
+		
+		"other": [
+			{
+				"label": "Bitcoin",
+				"value": ""
+			}
+		],
+		
+		"qrcode": [
+			{
+				"label": "Scan with any QR reader or Click here."
+			}
+		]
+	}	
+};
