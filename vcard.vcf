@@ -3,7 +3,7 @@ VERSION:2.1
 N;LANGUAGE=pt-br:Pessoa;Everaldo
 FN:Everaldo Pessoa
 ORG:AVON
-TITLE:IT Manager, Architecture
+TITLE:Manager, IT Architecture
 TEL;CELL;VOICE:+55 (11) 98962-0797
 TEL;WORK;VOICE:+55 (11) 5546-7402
 
@@ -18,8 +18,8 @@ X-SOCIALPROFILE;type=Facebook:http://www.facebook.com/ehpessoa
 X-SOCIALPROFILE;type=Twitter:http://twitter.com/ehpessoa
 X-SOCIALPROFILE;type=Instagram:http://www.instagram.com/ehpessoa
 X-SOCIALPROFILE;type=SIP;x-user=everaldo.pessoa@avon.com:x-apple:everaldo.pessoa@avon.com
-X-SOCIALPROFILE;type=Skype;x-user=everaldo.pessoa@live.com:x-apple:everaldo.pessoa@live.com
-URL;WORK:http://me.ehpessoa.com
+X-SOCIALPROFILE;type=Skype;x-user=everaldocoutinho:x-apple:everaldocoutinho
+URL;WORK:http://www.avon.com.br
 EMAIL;PREF;INTERNET:everaldo.pessoa@avon.com
 EMAIL;INTERNET:everaldo.pessoa@gmail.com
 X-MS-IMADDRESS:+55 (11) 98962-0797
