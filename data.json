@@ -10,9 +10,9 @@ var obj =
 		"first": "Everaldo",
 		"last": "Pessoa",
 	},
-	"title": "IT Manager, Architecture",
+	"title": "Manager, IT Architecture",
 	"company": "AVON	",
-	"department": "Responsible for solutions architecture, application modernization, and innovation initiatives evaluating emerging technologies.",
+	"department": "I'm an enthusiastic for emerging technologies, huge fan of sci-fi movies, free time developer coding for fun, and specialist in water, malted cereals and hops.",
 
 	"columns": {
 		"1": ["phone", "publications", "address", "mail"],
@@ -26,7 +26,7 @@ var obj =
 				"label": "mobile"
 			},							
 			{
-				"value": "+55 (11) 98962-0797",
+				"value": "5511989620797",
 				"label": "whatsapp"
 			},				
 			{
@@ -34,7 +34,7 @@ var obj =
 				"label": "sip"
 			},
 			{
-				"value": "everaldo.pessoa?live.com",
+				"value": "everaldocoutinho",
 				"label": "skype"
 			}					
 		],
@@ -76,10 +76,16 @@ var obj =
 				"protocol": "http"
 			}, 
 			{
-				"value": "me.ehpessoa.com",
+				"value": "www.ehpessoa.com",
 				"label": "personal",
 				"protocol": "http"
+			},
+			{
+				"value": "github.com/ehpessoa/vcard",
+				"label": "source",
+				"protocol": "http"
 			}			
+		
 		],
 		
 		"address": [

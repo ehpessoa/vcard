@@ -13,7 +13,7 @@
     <!-- These meta tags must be hard coded (no JQuery) because they are read by Facebook -->
 	<meta property="og:type"          content="profile" />
     <meta property="og:title"         content="Digital Business Card for Everaldo Pessoa" />
-    <meta pfroperty="og:description"   content="Everaldo Pessoa • IT Manager. Responsible for solutions architecture, application modernization, and innovation initiatives evaluating emerging technologies. • AVON" />
+    <meta pfroperty="og:description"   content="Everaldo Pessoa • IT Manager. Responsible by the definition of strategic planning for application modernization, and lead innovation initiatives evaluating new and emerging technologies. • AVON" />
     <!--
     <meta property="og:image"         content="http://ehpessoa.com/card/walletcard.png" />
     <link rel="image_src"             href="http://ehpessoa.com/card/card/walletcard.png" />
@@ -336,31 +336,38 @@
 			<div class="block" id="phone">
 				<ul class="list-group">
 					<% for ( var i = 0; i < section.length; i++ ) { 
-						var protocol;						
+						var protocol;			
+						var sufix;			
 						switch (section[i].label) {
 							case "facetime":
 								protocol = "facetime://";
+								sufix = "";
 								break;
 							case "skype":
 								protocol = "skype:";
+								sufix = "";
 								break;
 							case "whatsapp":
-								protocol = "whatsapp://";
+								protocol = "https://api.whatsapp.com/send?phone=";
+								sufix = "&text=Hi there!";
 								break;
 							case "SIP":
 								protocol = "sip://";
+								sufix = "";
 								break;
 							case "skype":
 								protocol = "skype://";
+								sufix = "";
 								break;
 							default:
 								protocol = "tel://";
+								sufix = "";
 						} %>
 						<li class="list-group-item">
 							<div class="row tel">
 								<div class="col-xs-3 column label type"><%=section[i].label%></div>
 								<div class="col-xs-9 column value">
-									<a class="value" href="<%=protocol%><%=section[i].value%>"><%=section[i].value%></a>
+									<a class="value" href="<%=protocol%><%=section[i].value%><%=sufix%>" target="_blank"><%=section[i].value%></a>
 								</div>
 							</div>
 						</li>
@@ -496,7 +503,7 @@
 						<li class="list-group-item">
 							<div class="row">
 								<div class="col-xs-3 column label"><%=section[i].label%></div>
-								<div class="col-xs-9 column value"><a href="<%=section[i].protocol + "://" + section[i].value%>"><%=section[i].value%></a></div>
+								<div class="col-xs-9 column value"><a href="<%=section[i].protocol + "://" + section[i].value%>" target="_blank"><%=section[i].value%></a></div>
 							</div>
 						</li>
 					<% } %>
